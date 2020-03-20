@@ -10,7 +10,8 @@
 </head>
 
 <body>
-
+    <h1>Quarantine Keeper</h1>
+    <p>Because you'll go fucking insane otherwise lmao </p>
 
 </body>
 
