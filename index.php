@@ -14,17 +14,12 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <!-- As a link -->
         <nav class="navbar">
             <a id="headerTitle" class="navbar-brand" href="#">
                 <h1>Quarantine Keeper</h1>
             </a>
-        </nav>
-
-        <!-- As a heading -->
-        <nav class="navbar">
-            <span class="navbar-brand mb-0 h1">Navbar</span>
         </nav>
         <p>Because you'll go fucking insane otherwise lmao
 
