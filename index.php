@@ -21,27 +21,17 @@
                 <h1>Quarantine Keeper</h1>
             </a>
         </nav>
-        <p>Because you'll go fucking insane otherwise lmao
-
-
-            According to all known laws
-            of aviation,
-
-
-            there is no way a bee
-            should be able to fly.
-
-
-            Its wings are too small to get
-            its fat little body off the ground.
-
-
-            The bee, of course, flies anyway
-
-
-            because bees don't care
-            what humans think is impossible.</p>
-
+        <!-- Count up timer for days in social isolation or whatever -->
+        <div class="countup" id="countup1">
+            <span class="timeel days">00</span>
+            <span class="timeel timeRefDays">days</span>
+            <span class="timeel hours">00</span>
+            <span class="timeel timeRefHours">hours</span>
+            <span class="timeel minutes">00</span>
+            <span class="timeel timeRefMinutes">minutes</span>
+            <span class="timeel seconds">00</span>
+            <span class="timeel timeRefSeconds">seconds</span>
+        </div>
         <div class="row">
             <div class="col-sm">
                 # of Conversations (out loud):
