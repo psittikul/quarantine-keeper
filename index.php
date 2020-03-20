@@ -16,17 +16,36 @@
 <body>
     <div class="container">
         <!-- As a link -->
-        <nav class="navbar navbar-light bg-light">
-            <a class="navbar-brand" href="#">
+        <nav class="navbar">
+            <a id="headerTitle" class="navbar-brand" href="#">
                 <h1>Quarantine Keeper</h1>
             </a>
         </nav>
 
         <!-- As a heading -->
-        <nav class="navbar navbar-light bg-light">
+        <nav class="navbar">
             <span class="navbar-brand mb-0 h1">Navbar</span>
         </nav>
-        <p>Because you'll go fucking insane otherwise lmao </p>
+        <p>Because you'll go fucking insane otherwise lmao
+
+
+            According to all known laws
+            of aviation,
+
+
+            there is no way a bee
+            should be able to fly.
+
+
+            Its wings are too small to get
+            its fat little body off the ground.
+
+
+            The bee, of course, flies anyway
+
+
+            because bees don't care
+            what humans think is impossible.</p>
 
         <div class="row">
             <div class="col-sm">
