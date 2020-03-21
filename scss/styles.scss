@@ -14,11 +14,12 @@ body {
 .countup {
   text-align: center;
   margin-bottom: 20px;
+  background: $outer-space;
 }
 .countup .timeel {
   display: inline-block;
   padding: 10px;
-  background: #151515;
+  background: $outer-space;
   margin: 0;
   color: white;
   min-width: 2.6rem;
@@ -26,8 +27,8 @@ body {
   border-radius: 10px 0 0 10px;
 }
 .countup span[class*="timeRef"] {
-  border-radius: 0 10px 10px 0;
+  border-radius: 0 0 0 0;
   margin-left: 0;
-  background: #e8c152;
-  color: black;
+//   background: #e8c152;
+  color: white;
 }
