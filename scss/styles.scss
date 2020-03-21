@@ -12,28 +12,33 @@ body {
 }
 
 #topNav {
-    background: $dandelion;
-    border-bottom: solid .5rem $baby-blue;
+  background: $dandelion;
+  border-bottom: solid 0.5rem $baby-blue;
 }
 
-.countup {
-  text-align: center;
-  margin-bottom: 20px;
-  background: $outer-space;
-}
-.countup .timeel {
-  display: inline-block;
-  padding: 10px;
-  background: $outer-space;
-  margin: 0;
-  color: white;
-  min-width: 2.6rem;
-  margin-left: 13px;
-  border-radius: 10px 0 0 10px;
-}
-.countup span[class*="timeRef"] {
-  border-radius: 0 0 0 0;
-  margin-left: 0;
-//   background: #e8c152;
-  color: white;
+#counterRow {
+  margin-bottom: 2rem;
+
+  .countup {
+    text-align: center;
+    background: $outer-space;
+    width: 10rem;
+    border-radius: 5px;
+  }
+  .countup .timeel {
+    display: inline-block;
+    padding: 0;
+    background: $outer-space;
+    margin: 0;
+    color: white;
+    font-size: xx-large;
+    min-width: 2.6rem;
+    border-radius: 10px 0 0 10px;
+  }
+  .countup span[class*="timeRef"] {
+    border-radius: 0 0 0 0;
+    margin-left: 0;
+    font-size: large;
+    color: $dandelion;
+  }
 }
