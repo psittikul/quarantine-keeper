@@ -9,6 +9,14 @@
 body {
   background-color: $ivory;
   font-family: $Sen;
+  .container-fluid {
+    padding: 0;
+  }
+}
+
+.row {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 #topNav {
