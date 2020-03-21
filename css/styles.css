@@ -1,12 +1,17 @@
 #headerTitle {
   font-family: "Work Sans", sans-serif;
-  color: #4bc6b9;
+  color: #474954;
   margin: auto;
 }
 
 body {
   background-color: #FFFFF2;
   font-family: "Sen", sans-serif;
+}
+
+#topNav {
+  background: #e8d82a;
+  border-bottom: solid 0.5rem #A4BEF3;
 }
 
 .countup {

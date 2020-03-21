@@ -16,7 +16,7 @@
 <body>
     <div class="container-fluid">
         <!-- As a link -->
-        <nav class="navbar">
+        <nav class="navbar" id="topNav">
             <a id="headerTitle" class="navbar-brand" href="#">
                 <h1>Quarantine Keeper</h1>
             </a>
@@ -30,8 +30,8 @@
                 <div class="countup" id="countup1">
                     <span class="timeel days">00</span>
                     <span class="timeel timeRefDays">days</span>
-                    <span class="timeel hours">00</span>
-                    <span class="timeel timeRefHours">hours</span>
+                    <!-- <span class="timeel hours">00</span>
+                    <span class="timeel timeRefHours">hours</span> -->
                     <!-- <span class="timeel minutes">00</span> -->
                     <!-- <span class="timeel timeRefMinutes">minutes</span>
             <span class="timeel seconds">00</span>

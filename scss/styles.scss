@@ -2,13 +2,18 @@
 
 #headerTitle {
   font-family: $Work-Sans;
-  color: $sea-serpent;
+  color: $outer-space;
   margin: auto;
 }
 
 body {
   background-color: $ivory;
   font-family: $Sen;
+}
+
+#topNav {
+    background: $dandelion;
+    border-bottom: solid .5rem $baby-blue;
 }
 
 .countup {
