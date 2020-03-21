@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: $ivory;
+  background-color: $honeydew;
   font-family: $Sen;
   .container-fluid {
     padding: 0;
@@ -38,7 +38,7 @@ body {
     padding: 0;
     background: $outer-space;
     margin: 0;
-    color: white;
+    color: $dandelion;
     font-size: xx-large;
     min-width: 2.6rem;
     border-radius: 10px 0 0 10px;
@@ -47,6 +47,6 @@ body {
     border-radius: 0 0 0 0;
     margin-left: 0;
     font-size: large;
-    color: $dandelion;
+    color: white;
   }
 }
