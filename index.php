@@ -38,7 +38,7 @@
             </div>
         </div>
         <div class="row section-row">
-            <div class="card-deck">
+            <div class="col-sm-3">
                 <div class="card">
                     <img src="assets/brain.png" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -47,19 +47,33 @@
                         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
                 </div>
+            </div>
+            <div class="col-sm-3">
                 <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="assets/brain.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <h5 class="card-title"># of Existential Crises</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
                 </div>
+            </div>
+            <div class="col-sm-3">
                 <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="assets/brain.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <h5 class="card-title"># of Times You've Thought "Oh my God I am going fucking insane"</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card">
+                    <img src="assets/brain.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Mood</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
                 </div>
@@ -67,7 +81,7 @@
         </div>
 
     </div>
-
+    <script src="https://kit.fontawesome.com/8819ef24c8.js" crossorigin="anonymous"></script>
     <!-- jQuery CDN -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <!-- Your scripts question mark? -->
