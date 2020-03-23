@@ -32,29 +32,40 @@
                 <span class="timeel timeRefSeconds">seconds</span>
             </div>
         </nav>
-        <div class="row section-row">
-            <div class="col-sm-1">
-                <h3>Mental Health</h3>
-                <img src="assets/brain.png">
-            </div>
-            <div class="col-sm">
-                # of Conversations (out loud):
-            </div>
-            <div class="col-sm">
-                # of Mental Breaks:
-            </div>
-            <div class="col-sm">
-                # of Existential Crises:
-            </div>
-            <div class="col-sm">
-                # of Times You've Thought "Oh my God I'm going fucking insane"
-            </div>
-        </div>
         <div class="row section-header">
             <div class="col-sm">
-                <h3 class="section-title">Physical Health</h3>
+                <h3>Mental Health</h3>
             </div>
         </div>
+        <div class="row section-row">
+            <div class="card-deck">
+                <div class="card">
+                    <img src="assets/brain.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"># of Conversations (Out Loud)</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 
     <!-- jQuery CDN -->
