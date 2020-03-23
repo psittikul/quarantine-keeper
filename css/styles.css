@@ -22,16 +22,14 @@ body .container-fluid {
   border-bottom: solid 0.5rem #a9bbb8;
 }
 
-#counterRow {
-  margin-bottom: 2rem;
-}
-#counterRow .countup {
+.countup {
   text-align: center;
   background: #474954;
   width: 10rem;
   border-radius: 5px;
 }
-#counterRow .countup .timeel {
+
+.countup .timeel {
   display: inline-block;
   padding: 0;
   background: #474954;
@@ -41,7 +39,8 @@ body .container-fluid {
   min-width: 2.6rem;
   border-radius: 10px 0 0 10px;
 }
-#counterRow .countup span[class*=timeRef] {
+
+.countup span[class*=timeRef] {
   border-radius: 0 0 0 0;
   margin-left: 0;
   font-size: large;

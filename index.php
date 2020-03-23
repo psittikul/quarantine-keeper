@@ -24,22 +24,16 @@
             <div class="countup" id="countup1">
                 <span class="timeel days">00</span>
                 <span class="timeel timeRefDays">days</span>
-                <!-- <span class="timeel hours">00</span>
-                    <span class="timeel timeRefHours">hours</span> -->
-                <!-- <span class="timeel minutes">00</span> -->
-                <!-- <span class="timeel timeRefMinutes">minutes</span>
-            <span class="timeel seconds">00</span>
-            <span class="timeel timeRefSeconds">seconds</span> -->
+                <span class="timeel hours">00</span>
+                <span class="timeel timeRefHours">hours</span>
+                <span class="timeel minutes">00</span>
+                <span class="timeel timeRefMinutes">minutes</span>
+                <span class="timeel seconds">00</span>
+                <span class="timeel timeRefSeconds">seconds</span>
             </div>
+            <h4>spent in social isolation</h4>
         </nav>
-        <div class="row" id="counterRow">
-            <div class="col-sm-4">
-                <h3>Time Spent in Social Isolation:</h3>
-            </div>
-            <div class="col-sm-8">
-
-            </div>
-        </div>
+        <h3>Mental Health</h3>
         <div class="row">
             <div class="col-sm">
                 # of Conversations (out loud):

@@ -1,7 +1,6 @@
 @import "variables";
 
 #headerTitle {
-  // font-family: $Work-Sans;
   font-family: $Lobster;
   color: $outer-space;
   margin: auto;
@@ -25,29 +24,25 @@ body {
   border-bottom: solid 0.5rem $ash-grey;
 }
 
-#counterRow {
-  margin-bottom: 2rem;
-
-  .countup {
-    text-align: center;
-    background: $outer-space;
-    width: 10rem;
-    border-radius: 5px;
-  }
-  .countup .timeel {
-    display: inline-block;
-    padding: 0;
-    background: $outer-space;
-    margin: 0;
-    color: $dandelion;
-    font-size: xx-large;
-    min-width: 2.6rem;
-    border-radius: 10px 0 0 10px;
-  }
-  .countup span[class*="timeRef"] {
-    border-radius: 0 0 0 0;
-    margin-left: 0;
-    font-size: large;
-    color: white;
-  }
+.countup {
+  text-align: center;
+  background: $outer-space;
+  width: 10rem;
+  border-radius: 5px;
+}
+.countup .timeel {
+  display: inline-block;
+  padding: 0;
+  background: $outer-space;
+  margin: 0;
+  color: $dandelion;
+  font-size: xx-large;
+  min-width: 2.6rem;
+  border-radius: 10px 0 0 10px;
+}
+.countup span[class*="timeRef"] {
+  border-radius: 0 0 0 0;
+  margin-left: 0;
+  font-size: large;
+  color: white;
 }
