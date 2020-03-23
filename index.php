@@ -31,7 +31,6 @@
                 <span class="timeel seconds">00</span>
                 <span class="timeel timeRefSeconds">seconds</span>
             </div>
-            <h4>spent in social isolation</h4>
         </nav>
         <h3>Mental Health</h3>
         <div class="row">

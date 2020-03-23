@@ -1,7 +1,6 @@
 #headerTitle {
   font-family: "Lobster", cursive;
   color: #474954;
-  margin: auto;
 }
 
 body {
@@ -25,7 +24,6 @@ body .container-fluid {
 .countup {
   text-align: center;
   background: #474954;
-  width: 10rem;
   border-radius: 5px;
 }
 
@@ -45,6 +43,9 @@ body .container-fluid {
   margin-left: 0;
   font-size: large;
   color: white;
+}
+.countup span[class*=timeRef]:last-of-type {
+  padding-right: 0.5rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

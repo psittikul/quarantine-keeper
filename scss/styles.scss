@@ -3,7 +3,7 @@
 #headerTitle {
   font-family: $Lobster;
   color: $outer-space;
-  margin: auto;
+  // margin: auto;
 }
 
 body {
@@ -27,7 +27,6 @@ body {
 .countup {
   text-align: center;
   background: $outer-space;
-  width: 10rem;
   border-radius: 5px;
 }
 .countup .timeel {
@@ -45,4 +44,7 @@ body {
   margin-left: 0;
   font-size: large;
   color: white;
+  &:last-of-type {
+    padding-right: 0.5rem;
+  }
 }

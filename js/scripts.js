@@ -23,8 +23,8 @@ function countUpFromTime(countFrom, id) {
     var idEl = document.getElementById(id);
     idEl.getElementsByClassName('days')[0].innerHTML = days;
     idEl.getElementsByClassName('hours')[0].innerHTML = hours;
-    // idEl.getElementsByClassName('minutes')[0].innerHTML = mins;
-    // idEl.getElementsByClassName('seconds')[0].innerHTML = secs;
+    idEl.getElementsByClassName('minutes')[0].innerHTML = mins;
+    idEl.getElementsByClassName('seconds')[0].innerHTML = secs;
 
     clearTimeout(countUpFromTime.interval);
     countUpFromTime.interval = setTimeout(function () { countUpFromTime(countFrom, id); }, 1000);
