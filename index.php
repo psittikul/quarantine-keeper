@@ -62,7 +62,7 @@
                 <div class="card">
                     <img src="assets/brain.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title"># of Times You've Thought "Oh my God I am going fucking insane"</h5>
+                        <h5 class="card-title"># of Mental Breaks</h5>
                         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
@@ -72,7 +72,7 @@
                 <div class="card">
                     <img src="assets/brain.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Mood</h5>
+                        <h5 class="card-title">General Mood</h5>
                         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
