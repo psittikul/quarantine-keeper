@@ -20,23 +20,24 @@
             <a id="headerTitle" class="navbar-brand" href="#">
                 <h1>Quarantine Keeper</h1>
             </a>
+            <!-- Count up timer for days in social isolation or whatever -->
+            <div class="countup" id="countup1">
+                <span class="timeel days">00</span>
+                <span class="timeel timeRefDays">days</span>
+                <!-- <span class="timeel hours">00</span>
+                    <span class="timeel timeRefHours">hours</span> -->
+                <!-- <span class="timeel minutes">00</span> -->
+                <!-- <span class="timeel timeRefMinutes">minutes</span>
+            <span class="timeel seconds">00</span>
+            <span class="timeel timeRefSeconds">seconds</span> -->
+            </div>
         </nav>
         <div class="row" id="counterRow">
             <div class="col-sm-4">
                 <h3>Time Spent in Social Isolation:</h3>
             </div>
             <div class="col-sm-8">
-                <!-- Count up timer for days in social isolation or whatever -->
-                <div class="countup" id="countup1">
-                    <span class="timeel days">00</span>
-                    <span class="timeel timeRefDays">days</span>
-                    <!-- <span class="timeel hours">00</span>
-                    <span class="timeel timeRefHours">hours</span> -->
-                    <!-- <span class="timeel minutes">00</span> -->
-                    <!-- <span class="timeel timeRefMinutes">minutes</span>
-            <span class="timeel seconds">00</span>
-            <span class="timeel timeRefSeconds">seconds</span> -->
-                </div>
+
             </div>
         </div>
         <div class="row">
