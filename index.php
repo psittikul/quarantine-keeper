@@ -32,15 +32,11 @@
                 <span class="timeel timeRefSeconds">seconds</span>
             </div>
         </nav>
-        <div class="row section-header">
-            <div class="col-sm-2">
+        <div class="row section-row">
+            <div class="col-sm-1">
+                <h3>Mental Health</h3>
                 <img src="assets/brain.png">
             </div>
-            <div class="col-sm-10">
-                <h3 class="section-title">Mental Health</h3>
-            </div>
-        </div>
-        <div class="row section-row">
             <div class="col-sm">
                 # of Conversations (out loud):
             </div>
@@ -49,6 +45,9 @@
             </div>
             <div class="col-sm">
                 # of Existential Crises:
+            </div>
+            <div class="col-sm">
+                # of Times You've Thought "Oh my God I'm going fucking insane"
             </div>
         </div>
         <div class="row section-header">
