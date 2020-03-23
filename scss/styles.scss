@@ -1,13 +1,13 @@
 @import "variables";
 
 #headerTitle {
-  font-family: $Work-Sans;
+  // font-family: $Work-Sans;
+  font-family: $Lobster;
   color: $outer-space;
   margin: auto;
 }
 
 body {
-  // background-color: $honeydew;
   background-image: url("../assets/bush.png");
   font-family: $Sen;
   .container-fluid {
@@ -22,7 +22,7 @@ body {
 
 #topNav {
   background: $dandelion;
-  border-bottom: solid 0.5rem $baby-blue;
+  border-bottom: solid 0.5rem $ash-grey;
 }
 
 #counterRow {

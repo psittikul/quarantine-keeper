@@ -1,5 +1,5 @@
 #headerTitle {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Lobster", cursive;
   color: #474954;
   margin: auto;
 }
@@ -19,7 +19,7 @@ body .container-fluid {
 
 #topNav {
   background: #e8d82a;
-  border-bottom: solid 0.5rem #A4BEF3;
+  border-bottom: solid 0.5rem #a9bbb8;
 }
 
 #counterRow {
