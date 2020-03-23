@@ -13,6 +13,15 @@ body .container-fluid {
 
 .section-title {
   color: #474954;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-color: #e8d82a;
+}
+.section-title i {
+  background-color: #474954;
+  color: #e8d82a;
+  padding: 0.5rem;
+  border-radius: 50%;
 }
 
 .row {
