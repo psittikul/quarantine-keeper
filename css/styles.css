@@ -11,6 +11,10 @@ body .container-fluid {
   padding: 0;
 }
 
+.section-title {
+  color: #474954;
+}
+
 .row {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -19,6 +23,7 @@ body .container-fluid {
 #topNav {
   background: #e8d82a;
   border-bottom: solid 0.5rem #a9bbb8;
+  margin-bottom: 2rem;
 }
 
 .countup {

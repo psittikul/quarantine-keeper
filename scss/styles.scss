@@ -3,7 +3,6 @@
 #headerTitle {
   font-family: $Lobster;
   color: $outer-space;
-  // margin: auto;
 }
 
 body {
@@ -14,6 +13,10 @@ body {
   }
 }
 
+.section-title {
+  color: $outer-space;
+}
+
 .row {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -22,6 +25,7 @@ body {
 #topNav {
   background: $dandelion;
   border-bottom: solid 0.5rem $ash-grey;
+  margin-bottom: 2rem;
 }
 
 .countup {

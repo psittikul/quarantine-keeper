@@ -34,7 +34,7 @@
         </nav>
         <div class="row section-header">
             <div class="col-sm">
-                <h3>Mental Health</h3>
+                <h3 class="section-title"><i class="fas fa-hand-holding-heart"></i> Mental Health</h3>
             </div>
         </div>
         <div class="row section-row">
