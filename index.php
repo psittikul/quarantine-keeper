@@ -32,6 +32,22 @@
                 <span class="timeel timeRefSeconds">seconds</span>
             </div>
         </nav>
+        <div id="stickySidenav">
+            <ul>
+                <a href="#physical">
+                    <li class="sidenav-item">Physical Health</li>
+                </a>
+                <a href="#mental">
+                    <li class="sidenav-item">Mental Health</li>
+                </a>
+                <a href="#activity">
+                    <li class="sidenav-item">Activity</li>
+                </a>
+                <a href="#todo">
+                    <li class="sidenav-item">Things To Do</li>
+                </a>
+            </ul>
+        </div>
         <div id="contentBody">
             <div class="row section-header">
                 <div class="col-sm">
@@ -55,7 +71,7 @@
                     <div class="card">
                         <img src="assets/brain.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title"># of Meals Eaten</h5>
+                            <h5 class="card-title">Water Drank</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         </div>
@@ -65,7 +81,7 @@
                     <div class="card">
                         <img src="assets/brain.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title"># of Meals Eaten</h5>
+                            <h5 class="card-title">Hours of Sleep</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         </div>
@@ -75,7 +91,7 @@
                     <div class="card">
                         <img src="assets/brain.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title"># of Meals Eaten</h5>
+                            <h5 class="card-title">Hours of Exercise</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         </div>
@@ -92,7 +108,7 @@
                     <div class="card">
                         <img src="assets/conversation.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title"># of Conversations (Out Loud)</h5>
+                            <h5 class="card-title"># of (Real) Conversations</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         </div>

@@ -12,6 +12,11 @@ body .container-fluid {
   padding: 0;
 }
 
+#stickySidenav {
+  position: fixed;
+  z-index: 1000;
+}
+
 #contentBody {
   width: 75%;
   margin: auto;
