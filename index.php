@@ -54,6 +54,14 @@
                     <h3 class="section-title" id="physical">
                         <i class="fas fa-heartbeat"></i> Physical Health
                     </h3>
+                    <h4>DID YOU TAKE YOUR MEDS?</h4>
+                    <ul id="medList">
+                        <li>Adderall XR</li>
+                        <li>Lamictal</li>
+                        <li>Nikki</li>
+                        <li>Clonidine</li>
+                        <li>Adderall IR</li>
+                    </ul>
                 </div>
             </div>
             <div class="row section-row">

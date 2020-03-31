@@ -12,6 +12,11 @@ body .container-fluid {
   padding: 0;
 }
 
+#medList {
+  list-style: none;
+  padding: 0;
+}
+
 #stickySidenav {
   position: fixed;
   z-index: 1000;
@@ -19,6 +24,7 @@ body .container-fluid {
 }
 #stickySidenav ul {
   list-style: none;
+  padding: 0;
 }
 #stickySidenav ul a {
   color: #474954;

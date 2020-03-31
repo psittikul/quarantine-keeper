@@ -13,12 +13,18 @@ body {
   }
 }
 
+#medList {
+  list-style: none;
+  padding: 0;
+}
+
 #stickySidenav {
   position: fixed;
   z-index: 1000;
   width: 10rem;
   ul {
     list-style: none;
+    padding: 0;
     a {
       color: $outer-space;
       text-decoration: none;
