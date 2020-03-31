@@ -51,7 +51,7 @@
         <div id="contentBody">
             <div class="row section-header">
                 <div class="col-sm">
-                    <h3 class="section-title">
+                    <h3 class="section-title" id="physical">
                         <i class="fas fa-heartbeat"></i> Physical Health
                     </h3>
                 </div>
@@ -100,7 +100,7 @@
             </div>
             <div class="row section-header">
                 <div class="col-sm">
-                    <h3 class="section-title"><i class="fas fa-hand-holding-heart"></i> Mental Health</h3>
+                    <h3 class="section-title" id="mental"><i class="fas fa-hand-holding-heart"></i> Mental Health</h3>
                 </div>
             </div>
             <div class="row section-row">
@@ -143,6 +143,32 @@
                             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         </div>
                     </div>
+                </div>
+            </div>
+
+            <!-- Activity Section -->
+            <div class="row section-header">
+                <div class="col-sm">
+                    <h3 class="section-title" id="todo"><i class="fas fa-hand-holding-heart"></i> Things To Do (Instead of Losing It)</h3>
+                </div>
+            </div>
+            <div class="row section-row">
+                <div class="col-sm-4">
+                    <ul class="todo-list">
+                        <li>
+                            <input type="checkbox"> Tattoo web app
+                        </li>
+                        <li>
+                            <input type="checkbox"> Fix whiteboard thing
+                        </li>
+                        <li><input type="checkbox"> Practice Thai</li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+
+                </div>
+                <div class="col-sm-4">
+
                 </div>
             </div>
         </div>
