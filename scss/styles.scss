@@ -16,6 +16,30 @@ body {
 #stickySidenav {
   position: fixed;
   z-index: 1000;
+  width: 10rem;
+  ul {
+    list-style: none;
+    a {
+      color: $outer-space;
+      text-decoration: none;
+      &:hover {
+        text-decoration: none;
+        color: initial;
+        li {
+          background-color: $ash-grey;
+        }
+      }
+    }
+    li.sidenav-item {
+      transition: 0.25s;
+      border-radius: 0 5px 5px 0;
+      padding: 0.25rem 1rem 0.25rem 0.5rem;
+      background-color: $dandelion;
+      &:not(:last-of-type) {
+        margin-bottom: 0.25rem;
+      }
+    }
+  }
 }
 
 #contentBody {
