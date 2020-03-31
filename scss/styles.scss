@@ -16,6 +16,7 @@ body {
 #medList {
   list-style: none;
   padding: 0;
+  color: $outer-space;
 }
 
 #stickySidenav {
@@ -109,4 +110,9 @@ body {
 
 .row.section-row {
   margin-bottom: 1rem;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
 }

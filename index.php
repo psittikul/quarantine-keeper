@@ -159,7 +159,7 @@
             <!-- Activity section -->
             <div class="row section-header">
                 <div class="col-sm">
-                    <h3 class="section-title" id="activity"><i class="fas fa-hand-holding-heart"></i> Activity</h3>
+                    <h3 class="section-title" id="activity"><i class="fas fa-puzzle-piece"></i> Activity</h3>
                 </div>
             </div>
             <div class="row section-row">
@@ -208,7 +208,7 @@
             <!-- Things to Do Section -->
             <div class="row section-header">
                 <div class="col-sm">
-                    <h3 class="section-title" id="todo"><i class="fas fa-hand-holding-heart"></i> Things To Do (Instead of Losing It)</h3>
+                    <h3 class="section-title" id="todo"><i class="fas fa-tasks"></i> Things To Do (Instead of Losing It)</h3>
                 </div>
             </div>
             <div class="row section-row">

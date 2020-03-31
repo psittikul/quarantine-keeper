@@ -15,6 +15,7 @@ body .container-fluid {
 #medList {
   list-style: none;
   padding: 0;
+  color: #474954;
 }
 
 #stickySidenav {
@@ -110,6 +111,11 @@ body .container-fluid {
 
 .row.section-row {
   margin-bottom: 1rem;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
 }
 
 /*# sourceMappingURL=styles.css.map */
