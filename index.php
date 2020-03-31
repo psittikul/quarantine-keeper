@@ -98,6 +98,8 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Mental Health section -->
             <div class="row section-header">
                 <div class="col-sm">
                     <h3 class="section-title" id="mental"><i class="fas fa-hand-holding-heart"></i> Mental Health</h3>
@@ -146,7 +148,56 @@
                 </div>
             </div>
 
-            <!-- Activity Section -->
+            <!-- Activity section -->
+            <div class="row section-header">
+                <div class="col-sm">
+                    <h3 class="section-title" id="activity"><i class="fas fa-hand-holding-heart"></i> Activity</h3>
+                </div>
+            </div>
+            <div class="row section-row">
+                <div class="col-sm-3">
+                    <div class="card">
+                        <img src="assets/conversation.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"># of Pages/Books Read</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <img src="assets/brain.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Time Spent Programming</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <img src="assets/brain.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Time Spent Crafting</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <img src="assets/brain.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Shows/Movies Watched</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Things to Do Section -->
             <div class="row section-header">
                 <div class="col-sm">
                     <h3 class="section-title" id="todo"><i class="fas fa-hand-holding-heart"></i> Things To Do (Instead of Losing It)</h3>
