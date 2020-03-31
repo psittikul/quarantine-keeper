@@ -26,19 +26,19 @@ body .container-fluid {
 }
 #stickySidenav ul a:hover {
   text-decoration: none;
-  color: initial;
+  color: #e8d82a;
 }
 #stickySidenav ul a:hover li {
-  background-color: #a9bbb8;
+  background-color: #474954;
+}
+#stickySidenav ul a:not(:last-of-type) li {
+  margin-bottom: 0.25rem;
 }
 #stickySidenav ul li.sidenav-item {
   transition: 0.25s;
   border-radius: 0 5px 5px 0;
   padding: 0.25rem 1rem 0.25rem 0.5rem;
   background-color: #e8d82a;
-}
-#stickySidenav ul li.sidenav-item:not(:last-of-type) {
-  margin-bottom: 0.25rem;
 }
 
 #contentBody {

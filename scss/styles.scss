@@ -24,10 +24,13 @@ body {
       text-decoration: none;
       &:hover {
         text-decoration: none;
-        color: initial;
+        color: $dandelion;
         li {
-          background-color: $ash-grey;
+          background-color: $outer-space;
         }
+      }
+      &:not(:last-of-type) li {
+        margin-bottom: 0.25rem;
       }
     }
     li.sidenav-item {
@@ -35,9 +38,6 @@ body {
       border-radius: 0 5px 5px 0;
       padding: 0.25rem 1rem 0.25rem 0.5rem;
       background-color: $dandelion;
-      &:not(:last-of-type) {
-        margin-bottom: 0.25rem;
-      }
     }
   }
 }
