@@ -54,7 +54,7 @@
                     <h3 class="section-title" id="physical">
                         <i class="fas fa-heartbeat"></i> Physical Health
                     </h3>
-                    <h4>DID YOU TAKE YOUR MEDS?</h4>
+                    <h4 id="medicationHeader">DID YOU TAKE YOUR MEDS?</h4>
                     <ul id="medList">
                         <li>Adderall XR</li>
                         <li>Lamictal</li>
@@ -240,6 +240,134 @@
     <!-- BootStrap scripts -->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+    <style>
+.tick {
+  font-size:1rem; white-space:nowrap; font-family:arial,sans-serif;
+}
+
+.tick-flip,.tick-text-inline {
+  font-size:2.5em;
+}
+
+.tick-label {
+  margin-top:1em;font-size:1em;
+}
+
+.tick-char {
+  width:1.5em;
+}
+
+.tick-text-inline {
+  display:inline-block;text-align:center;min-width:1em;
+}
+
+.tick-text-inline+.tick-text-inline {
+  margin-left:-.325em;
+}
+
+.tick-group {
+  margin:0 .5em;text-align:center;
+}
+
+body {
+   background-color: #fff !important; 
+}
+
+.tick-text-inline {
+   color: #595d63 !important; 
+}
+
+.tick-label {
+   color: #595d63 !important; 
+}
+
+.tick-flip-panel {
+   color: #fff !important; 
+}
+
+.tick-flip {
+   font-family: !important; 
+}
+
+.tick-flip-panel-text-wrapper {
+   line-height: 1.45 !important; 
+}
+
+.tick-flip-panel {
+   background-color: #3c3e3c !important; 
+}
+
+.tick-flip {
+   border-radius:0.12em !important; 
+}
+</style>
+
+<div class="tick" data-did-init="handleTickInit">
+
+    <div data-repeat="true" data-layout="horizontal fit" data-transform="preset(d, h, m, s) -> delay">
+
+        <div class="tick-group">
+
+            <div data-key="value" data-repeat="true" data-transform="pad(00) -> split -> delay">
+
+                <span data-view="flip"></span>
+
+            </div>
+
+            <span data-key="label" data-view="text" class="tick-label"></span>
+
+        </div>
+
+    </div>
+
+</div>
+<script>
+    function handleTickInit(tick) {
+
+        // set language
+        var locale = {
+            YEAR_PLURAL: 'Jaren',
+            YEAR_SINGULAR: 'Jaar',
+            MONTH_PLURAL: 'Maanden',
+            MONTH_SINGULAR: 'Maand',
+            WEEK_PLURAL: 'Weken',
+            WEEK_SINGULAR: 'Week',
+            DAY_PLURAL: 'Dagen',
+            DAY_SINGULAR: 'Dag',
+            HOUR_PLURAL: 'Uren',
+            HOUR_SINGULAR: 'Uur',
+            MINUTE_PLURAL: 'Minuten',
+            MINUTE_SINGULAR: 'Minuut',
+            SECOND_PLURAL: 'Seconden',
+            SECOND_SINGULAR: 'Seconde',
+            MILLISECOND_PLURAL: 'Milliseconden',
+            MILLISECOND_SINGULAR: 'Milliseconde'
+        };
+
+        for (var key in locale) {
+            if (!locale.hasOwnProperty(key)) { continue; }
+            tick.setConstant(key, locale[key]);
+        }
+
+        // format of since date is ISO8601
+        // https://en.wikipedia.org/wiki/ISO_8601
+
+        // '2000'                       to count up from 2000
+        // '2000-01-31T12:00:00'        to count up from 12 o'clock on the 31st of January 2000
+        // '2000-01-15T10:00:00+01:00'  to count up from 10 o'clock GMT+1 on the 15th of January 2000
+
+        // create counter
+        Tick.count.up('2020-03-16T20:00:00', { format: ['d','h','m','s'] }).onupdate = function (value) {
+            tick.value = value;
+        };
+
+    }
+</script>
+
+
+
 
 </body>
 

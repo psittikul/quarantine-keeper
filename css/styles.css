@@ -12,10 +12,17 @@ body .container-fluid {
   padding: 0;
 }
 
+#medicationHeader {
+  color: #474954;
+}
+
 #medList {
   list-style: none;
   padding: 0;
   color: #474954;
+}
+#medList li {
+  display: inline-block;
 }
 
 #stickySidenav {

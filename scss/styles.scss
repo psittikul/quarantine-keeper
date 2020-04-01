@@ -13,10 +13,17 @@ body {
   }
 }
 
+#medicationHeader {
+  color: $outer-space;
+}
+
 #medList {
   list-style: none;
   padding: 0;
   color: $outer-space;
+  li {
+    display: inline-block;
+  }
 }
 
 #stickySidenav {

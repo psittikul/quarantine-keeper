@@ -1,10 +1,14 @@
+var monthMap = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+var dayMap = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
 /*
  * Basic Count Up from Date and Time
  * Author: @mrwigster / https://guwii.com/bytes/count-date-time-javascript/
  */
 window.onload = function () {
     // Month Day, Year Hour:Minute:Second, id-of-element-container
-    countUpFromTime("Mar 16, 2020 20:00:00", 'countup1'); // ****** Change this line!
+    countUpFromTime("Mar 16, 2020 20:00:00", 'countup1'); // ****** Eventually change this to reflect actual start of quarantine??
+    getDisplayDate();
 };
 function countUpFromTime(countFrom, id) {
     countFrom = new Date(countFrom).getTime();
@@ -28,4 +32,10 @@ function countUpFromTime(countFrom, id) {
 
     clearTimeout(countUpFromTime.interval);
     countUpFromTime.interval = setTimeout(function () { countUpFromTime(countFrom, id); }, 1000);
+}
+
+function getDisplayDate() {
+    var today = new Date();
+    var displayDate = "Today is: " + dayMap[today.getDay()] + ", " + monthMap[today.getMonth()] + " " + today.getDate() + ", " + today.getFullYear();
+    $("#countup1").after(displayDate);
 }
