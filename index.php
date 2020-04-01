@@ -35,7 +35,7 @@
         </nav>
         <div class="tick" data-did-init="handleTickInit">
 
-            <div data-repeat="true" data-layout="horizontal fit" data-transform="preset(d, h, m, s) -> delay">
+            <div data-repeat="true" data-layout="horizontal center fit" data-transform="preset(d, h, m, s) -> delay">
 
                 <div class="tick-group">
 
@@ -260,6 +260,44 @@
     <!-- BootStrap scripts -->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script>
+        function handleTickInit(tick) {
+
+            // Uncomment to set labels to different language ( in this case Dutch )
+            /*
+            var locale = {
+                YEAR_PLURAL: 'Jaren',
+                YEAR_SINGULAR: 'Jaar',
+                MONTH_PLURAL: 'Maanden',
+                MONTH_SINGULAR: 'Maand',
+                WEEK_PLURAL: 'Weken',
+                WEEK_SINGULAR: 'Week',
+                DAY_PLURAL: 'Dagen',
+                DAY_SINGULAR: 'Dag',
+                HOUR_PLURAL: 'Uren',
+                HOUR_SINGULAR: 'Uur',
+                MINUTE_PLURAL: 'Minuten',
+                MINUTE_SINGULAR: 'Minuut',
+                SECOND_PLURAL: 'Seconden',
+                SECOND_SINGULAR: 'Seconde',
+                MILLISECOND_PLURAL: 'Milliseconden',
+                MILLISECOND_SINGULAR: 'Milliseconde'
+            };
+
+            for (var key in locale) {
+                if (!locale.hasOwnProperty(key)) { continue; }
+                tick.setConstant(key, locale[key]);
+            }
+            */
+
+            var nextYear = (new Date()).getFullYear() + 1;
+
+            Tick.count.down(nextYear + '-01-01').onupdate = function(value) {
+                tick.value = value;
+            };
+
+        }
+    </script>
     <script src="/flip-js/dist/flip.min.js"></script>
 </body>
 
