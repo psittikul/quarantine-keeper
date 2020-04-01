@@ -35,7 +35,7 @@
         </nav>
         <div class="tick" data-did-init="handleTickInit">
 
-            <div data-repeat="true" data-layout="horizontal center fit" data-transform="preset(d, h, m, s) -> delay">
+            <div data-repeat="true" data-layout="horizontal fit" data-transform="preset(y, M, d, h, m, s) -> delay">
 
                 <div class="tick-group">
 
@@ -263,36 +263,17 @@
     <script>
         function handleTickInit(tick) {
 
-            // Uncomment to set labels to different language ( in this case Dutch )
-            /*
-            var locale = {
-                YEAR_PLURAL: 'Jaren',
-                YEAR_SINGULAR: 'Jaar',
-                MONTH_PLURAL: 'Maanden',
-                MONTH_SINGULAR: 'Maand',
-                WEEK_PLURAL: 'Weken',
-                WEEK_SINGULAR: 'Week',
-                DAY_PLURAL: 'Dagen',
-                DAY_SINGULAR: 'Dag',
-                HOUR_PLURAL: 'Uren',
-                HOUR_SINGULAR: 'Uur',
-                MINUTE_PLURAL: 'Minuten',
-                MINUTE_SINGULAR: 'Minuut',
-                SECOND_PLURAL: 'Seconden',
-                SECOND_SINGULAR: 'Seconde',
-                MILLISECOND_PLURAL: 'Milliseconden',
-                MILLISECOND_SINGULAR: 'Milliseconde'
-            };
+            // format of since date is ISO8601
+            // https://en.wikipedia.org/wiki/ISO_8601
 
-            for (var key in locale) {
-                if (!locale.hasOwnProperty(key)) { continue; }
-                tick.setConstant(key, locale[key]);
-            }
-            */
+            // '2000'                       to count up from 2000
+            // '2000-01-31T12:00:00'        to count up from 12 o'clock on the 31st of January 2000
+            // '2000-01-15T10:00:00+01:00'  to count up from 10 o'clock GMT+1 on the 15th of January 2000
 
-            var nextYear = (new Date()).getFullYear() + 1;
-
-            Tick.count.down(nextYear + '-01-01').onupdate = function(value) {
+            // create counter
+            Tick.count.up('2020-03-16T00:00:00', {
+                format: ['y', 'M', 'd', 'h', 'm', 's']
+            }).onupdate = function(value) {
                 tick.value = value;
             };
 
