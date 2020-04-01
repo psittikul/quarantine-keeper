@@ -22,7 +22,7 @@
                 <h1>Quarantine Keeper</h1>
             </a>
             <!-- Count up timer for days in social isolation or whatever -->
-            <div class="countup" id="countup1">
+            <div class="countup" id="countup1" style="display:none">
                 <span class="timeel days">00</span>
                 <span class="timeel timeRefDays">days</span>
                 <span class="timeel hours">00</span>
@@ -32,26 +32,26 @@
                 <span class="timeel seconds">00</span>
                 <span class="timeel timeRefSeconds">seconds</span>
             </div>
-        </nav>
-        <div class="tick" data-did-init="handleTickInit">
+            <div class="tick" data-did-init="handleTickInit">
 
-            <div data-repeat="true" data-layout="horizontal fit" data-transform="preset(y, M, d, h, m, s) -> delay">
+                <div data-repeat="true" data-layout="horizontal fit" data-transform="preset(d, h, m, s) -> delay">
 
-                <div class="tick-group">
+                    <div class="tick-group">
 
-                    <div data-key="value" data-repeat="true" data-transform="pad(00) -> split -> delay">
+                        <div data-key="value" data-repeat="true" data-transform="pad(00) -> split -> delay">
 
-                        <span data-view="flip"></span>
+                            <span data-view="flip"></span>
+
+                        </div>
+
+                        <span data-key="label" data-view="text" class="tick-label"></span>
 
                     </div>
-
-                    <span data-key="label" data-view="text" class="tick-label"></span>
 
                 </div>
 
             </div>
-
-        </div>
+        </nav>
         <div id="stickySidenav">
             <ul>
                 <a href="#physical">
@@ -271,8 +271,8 @@
             // '2000-01-15T10:00:00+01:00'  to count up from 10 o'clock GMT+1 on the 15th of January 2000
 
             // create counter
-            Tick.count.up('2020-03-16T00:00:00', {
-                format: ['y', 'M', 'd', 'h', 'm', 's']
+            Tick.count.up('2020-03-16T20:00:00', {
+                format: ['d', 'h', 'm', 's']
             }).onupdate = function(value) {
                 tick.value = value;
             };
