@@ -346,10 +346,10 @@ body {
             MILLISECOND_SINGULAR: 'Milliseconde'
         };
 
-        for (var key in locale) {
-            if (!locale.hasOwnProperty(key)) { continue; }
-            tick.setConstant(key, locale[key]);
-        }
+        // for (var key in locale) {
+        //     if (!locale.hasOwnProperty(key)) { continue; }
+        //     tick.setConstant(key, locale[key]);
+        // }
 
         // format of since date is ISO8601
         // https://en.wikipedia.org/wiki/ISO_8601
