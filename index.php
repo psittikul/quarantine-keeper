@@ -230,6 +230,14 @@
                             <input type="checkbox"> Fix whiteboard thing
                         </li>
                         <li><input type="checkbox"> Practice Thai</li>
+                        <li><input type="checkbox"> Practice French</li>
+                        <li><input type="checkbox"> Sew masks</li>
+                        <li><input type="checkbox"> Decorate boxing gloves</li>
+                        <li><input type="checkbox"> Yoga</li>
+                        <li><input type="checkbox"> Digital illustration of Pam, Penny and I as Naruto characters</li>
+                        <li><input type="checkbox"> Practice drawing</li>
+                        <li><input type="checkbox"> Big Brothers Big Sisters training</li>
+
                     </ul>
                 </div>
                 <div class="col-sm-4">
