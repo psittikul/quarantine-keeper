@@ -44,16 +44,16 @@
         <div id="stickySidenav">
             <ul>
                 <a href="#physical">
-                    <li class="sidenav-item">Physical Health</li>
+                    <li class="sidenav-item"><i class="fas fa-heartbeat"></i>Physical Health</li>
                 </a>
                 <a href="#mental">
-                    <li class="sidenav-item">Mental Health</li>
+                    <li class="sidenav-item"><i class="fas fa-hand-holding-heart"></i> Mental Health</li>
                 </a>
                 <a href="#activity">
-                    <li class="sidenav-item">Activity</li>
+                    <li class="sidenav-item"><i class="fas fa-puzzle-piece"></i> Activity</li>
                 </a>
                 <a href="#todo">
-                    <li class="sidenav-item">Things To Do</li>
+                    <li class="sidenav-item"><i class="fas fa-tasks"></i> Things To Do</li>
                 </a>
             </ul>
         </div>
@@ -65,18 +65,16 @@
                     </h3>
                     <h4 id="medicationHeader">DID YOU TAKE YOUR MEDS?</h4>
                     <ul id="medList">
-                        <li>Adderall XR</li>
-                        <li>Lamictal</li>
-                        <li>Nikki</li>
-                        <li>Clonidine</li>
-                        <li>Adderall IR</li>
+                        <li><img src="assets/adderall.png"/></li>
+                        <li><img src="assets/lamictal.png" title="Lamictal"/></li>
+                        <li><img src="assets/bc.png"/></li>
                     </ul>
                 </div>
             </div>
             <div class="row section-row">
                 <div class="col-sm-3">
                     <div class="card">
-                        <img src="assets/brain.png" class="card-img-top" alt="...">
+                        <img src="assets/food.png" class="card-img-top">
                         <div class="card-body">
                             <h5 class="card-title"># of Meals Eaten</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -86,7 +84,7 @@
                 </div>
                 <div class="col-sm-3">
                     <div class="card">
-                        <img src="assets/brain.png" class="card-img-top" alt="...">
+                        <img src="assets/water.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Water Drank</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -96,7 +94,7 @@
                 </div>
                 <div class="col-sm-3">
                     <div class="card">
-                        <img src="assets/brain.png" class="card-img-top" alt="...">
+                        <img src="assets/sleep.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Hours of Sleep</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -106,7 +104,7 @@
                 </div>
                 <div class="col-sm-3">
                     <div class="card">
-                        <img src="assets/brain.png" class="card-img-top" alt="...">
+                        <img src="assets/exercise.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Hours of Exercise</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -234,7 +232,7 @@
                         <li><input type="checkbox"> Sew masks</li>
                         <li><input type="checkbox"> Decorate boxing gloves</li>
                         <li><input type="checkbox"> Yoga</li>
-                        <li><input type="checkbox"> Digital illustration of Pam, Penny and I as Naruto characters</li>
+                        <li><input type="checkbox"> Pam, Penny & I as Naruto characters</li>
                         <li><input type="checkbox"> Practice drawing</li>
                         <li><input type="checkbox"> Big Brothers Big Sisters training</li>
 
