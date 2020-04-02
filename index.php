@@ -136,7 +136,7 @@
             <div class="row section-row">
                 <div class="col-sm-3">
                     <div class="card">
-                        <img src="assets/conversations.png" class="card-img-top" alt="...">
+                        <img src="assets/conversation.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">(Real) Conversations</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -146,7 +146,7 @@
                 </div>
                 <div class="col-sm-3">
                     <div class="card">
-                        <img src="assets/mental-break.png" class="card-img-top" alt="...">
+                        <img src="assets/existential-crises.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Existential Crises</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -154,19 +154,19 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="col-sm-3">
+                <div class="col-sm-3">
                     <div class="card">
                         <img src="assets/mental-break.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Meds</h5>
+                            <h5 class="card-title">Mental Breaks</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         </div>
                     </div>
-                </div> -->
+                </div>
                 <div class="col-sm-3">
                     <div class="card">
-                        <img src="assets/brain.png" class="card-img-top" alt="...">
+                        <img src="assets/mood.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">General Mood</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
