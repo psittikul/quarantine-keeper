@@ -44,7 +44,7 @@
         <div id="stickySidenav">
             <ul>
                 <a href="#physical">
-                    <li class="sidenav-item"><i class="fas fa-heartbeat"></i>Physical Health</li>
+                    <li class="sidenav-item"><i class="fas fa-heartbeat"></i> Physical Health</li>
                 </a>
                 <a href="#mental">
                     <li class="sidenav-item"><i class="fas fa-hand-holding-heart"></i> Mental Health</li>
@@ -63,11 +63,24 @@
                     <h3 class="section-title" id="physical">
                         <i class="fas fa-heartbeat"></i> Physical Health
                     </h3>
-                    <h4 id="medicationHeader">DID YOU TAKE YOUR MEDS?</h4>
                     <ul id="medList">
-                        <li><img src="assets/adderall.png"/></li>
-                        <li><img src="assets/lamictal.png" title="Lamictal"/></li>
-                        <li><img src="assets/bc.png"/></li>
+                        <li>
+                            <h4>DID YOU TAKE YOUR MEDS?</h4>
+                        </li>
+                        <li>
+                            <button type="button" class="med-btn" title="Adderall" id="adderallBtn" data-taken="no">
+                                <img src="assets/adderall.png" />
+                            </button>
+                        </li>
+                        <li>
+                            <button type="button" class="med-btn" title="Lamictal" id="lamictalBtn" data-taken="no">
+                                <img src="assets/lamictal.png" />
+                            </button></li>
+                        <li>
+                            <button type="button" class="med-btn" title="Nikki" id="nikkiBtn" data-taken="no">
+                                <img src="assets/bc.png" />
+                            </button>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -76,7 +89,7 @@
                     <div class="card">
                         <img src="assets/food.png" class="card-img-top">
                         <div class="card-body">
-                            <h5 class="card-title"># of Meals Eaten</h5>
+                            <h5 class="card-title">Meals</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         </div>
@@ -86,7 +99,7 @@
                     <div class="card">
                         <img src="assets/water.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Water Drank</h5>
+                            <h5 class="card-title">Water</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         </div>
@@ -96,7 +109,7 @@
                     <div class="card">
                         <img src="assets/sleep.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Hours of Sleep</h5>
+                            <h5 class="card-title">Sleep</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         </div>
@@ -106,7 +119,7 @@
                     <div class="card">
                         <img src="assets/exercise.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Hours of Exercise</h5>
+                            <h5 class="card-title">Exercise</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         </div>
@@ -125,7 +138,7 @@
                     <div class="card">
                         <img src="assets/conversations.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title"># of (Real) Conversations</h5>
+                            <h5 class="card-title">(Real) Conversations</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         </div>
@@ -135,7 +148,7 @@
                     <div class="card">
                         <img src="assets/brain.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title"># of Existential Crises</h5>
+                            <h5 class="card-title">Existential Crises</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         </div>
@@ -143,9 +156,9 @@
                 </div>
                 <div class="col-sm-3">
                     <div class="card">
-                        <img src="assets/brain.png" class="card-img-top" alt="...">
+                        <img src="assets/mental-break.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title"># of Mental Breaks</h5>
+                            <h5 class="card-title">Mental Breaks</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         </div>
@@ -174,7 +187,7 @@
                     <div class="card">
                         <img src="assets/conversation.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title"># of Pages/Books Read</h5>
+                            <h5 class="card-title">Reading</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         </div>
@@ -184,7 +197,7 @@
                     <div class="card">
                         <img src="assets/brain.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Time Spent Programming</h5>
+                            <h5 class="card-title">Programming</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         </div>
@@ -204,7 +217,7 @@
                     <div class="card">
                         <img src="assets/brain.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Shows/Movies Watched</h5>
+                            <h5 class="card-title">Watching</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         </div>

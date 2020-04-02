@@ -23,6 +23,14 @@ body {
   color: $outer-space;
   li {
     display: inline-block;
+    .med-btn {
+      border: none;
+      background: none;
+      img {
+        width: 2rem;
+      }
+    }
+    margin-right: 1rem;
   }
 }
 
@@ -112,7 +120,7 @@ body {
 
 .card-img-top {
   width: 50%;
-  margin: auto;
+  margin: .5rem auto;
 }
 
 .row.section-row {
@@ -129,6 +137,6 @@ body {
 }
 
 .tick-group {
-  padding: 0 .5rem;
+  padding: 0 0.5rem;
   text-align: center;
 }
