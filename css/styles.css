@@ -36,7 +36,6 @@ body .container-fluid {
 #stickySidenav {
   position: fixed;
   z-index: 1000;
-  width: 10rem;
 }
 #stickySidenav ul {
   list-style: none;
