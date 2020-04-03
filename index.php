@@ -63,6 +63,9 @@
                     <h3 class="section-title" id="physical">
                         <i class="fas fa-heartbeat"></i> Physical Health
                     </h3>
+                    <button type="button" id="medsBtn" title="Did you take your meds today?">
+                        <img src="assets/medicine.png"/>
+                    </button>
                     <!-- <ul id="medList">
                         <li>
                             <h4>DID YOU TAKE YOUR MEDS?</h4>
