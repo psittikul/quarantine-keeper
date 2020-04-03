@@ -151,14 +151,17 @@ body {
     height: 100%;
     width: 100%;
     opacity: 0;
-    background-color: $outer-space;
+    border-radius: 50%;
+    background-color: green;
   }
   button[data-taken="yes"] {
-    &:after {
+    &:before {
       content: "✔";
       font-size: xx-large;
-      color: green;
+      color: white;
       font-weight: bold;
+      position: absolute;
+      top: 0;
     }
     & > .overlay {
       opacity: 1;
@@ -166,7 +169,14 @@ body {
   }
   button.med-btn {
     border: none;
+    height: 3rem;
+    width: 3rem;
     background: none;
+    &:focus,
+    &:active {
+      box-shadow: none;
+      border: none;
+    }
   }
   img {
     width: 2rem;
