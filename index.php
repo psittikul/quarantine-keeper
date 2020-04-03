@@ -258,10 +258,10 @@
                 <div class="modal-body">
                     <ul id="medsList">
                         <li>
-                            <button type="button" id="adderallBtn" data-toggle="tooltip" title="Adderall"><img src="assets/adderall.png"></button>
+                            <button type="button" id="adderallBtn" data-toggle="tooltip" title="Adderall" data-taken="no"><img src="assets/adderall.png"></button>
                         </li>
                         <li>
-                            <button type="button" id="lamictalBtn" data-toggle="tooltip" title="Lamictal"><img src="assets/lamictal.png"></button>
+                            <button type="button" id="lamictalBtn" data-toggle="tooltip" title="Lamictal" data-taken="no"><img src="assets/lamictal.png"></button>
                         </li>
                     </ul>
                 </div>
