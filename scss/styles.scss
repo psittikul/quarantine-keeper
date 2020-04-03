@@ -73,6 +73,9 @@ body {
   text-transform: uppercase;
   text-decoration: underline;
   text-decoration-color: $dandelion;
+  &#physical {
+    display: inline-block;
+  }
   i {
     background-color: $outer-space;
     color: $dandelion;
@@ -119,7 +122,7 @@ body {
 
 .card-img-top {
   width: 50%;
-  margin: .5rem auto;
+  margin: 0.5rem auto;
 }
 
 .row.section-row {
@@ -138,4 +141,14 @@ body {
 .tick-group {
   padding: 0 0.5rem;
   text-align: center;
+}
+
+#medsBtn {
+  background: none;
+  border: none;
+  height: 3rem;
+  float: right;
+  &:hover {
+    opacity: 0.8;
+  }
 }

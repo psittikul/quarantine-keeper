@@ -63,28 +63,11 @@
                     <h3 class="section-title" id="physical">
                         <i class="fas fa-heartbeat"></i> Physical Health
                     </h3>
-                    <button type="button" id="medsBtn" title="Did you take your meds today?">
-                        <img src="assets/medicine.png"/>
-                    </button>
-                    <!-- <ul id="medList">
-                        <li>
-                            <h4>DID YOU TAKE YOUR MEDS?</h4>
-                        </li>
-                        <li>
-                            <button type="button" class="med-btn" title="Adderall" id="adderallBtn" data-taken="no">
-                                <img src="assets/adderall.png" />
-                            </button>
-                        </li>
-                        <li>
-                            <button type="button" class="med-btn" title="Lamictal" id="lamictalBtn" data-taken="no">
-                                <img src="assets/lamictal.png" />
-                            </button></li>
-                        <li>
-                            <button type="button" class="med-btn" title="Nikki" id="nikkiBtn" data-taken="no">
-                                <img src="assets/bc.png" />
-                            </button>
-                        </li>
-                    </ul> -->
+                    <span id="medsBtnWrapper" data-toggle="modal" data-target="#medsModal">
+                        <button type="button" id="medsBtn" data-toggle="tooltip" title="Did you take your meds today?">
+                            <img src="assets/medicine.png" />
+                        </button>
+                    </span>
                 </div>
             </div>
             <div class="row section-row">
@@ -259,6 +242,32 @@
                 </div>
                 <div class="col-sm-4">
 
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="medsModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Did you take your meds today?</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul id="medsList">
+                        <li>
+                            <button type="button" id="adderallBtn" data-toggle="tooltip" title="Adderall"><img src="assets/adderall.png"></button>
+                        </li>
+                        <li>
+                            <button type="button" id="lamictalBtn" data-toggle="tooltip" title="Lamictal"><img src="assets/lamictal.png"></button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
