@@ -141,6 +141,10 @@ body {
 
 #medsModal #medsList {
   list-style: none;
+  li {
+    display: inline;
+    margin-right: 1rem;
+  }
   .overlay {
     transition: 0.25s ease;
     position: absolute;
@@ -168,6 +172,7 @@ body {
     }
   }
   button.med-btn {
+    position: relative;
     border: none;
     height: 3rem;
     width: 3rem;

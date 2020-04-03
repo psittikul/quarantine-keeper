@@ -144,6 +144,10 @@ body .container-fluid {
 #medsModal #medsList {
   list-style: none;
 }
+#medsModal #medsList li {
+  display: inline;
+  margin-right: 1rem;
+}
 #medsModal #medsList .overlay {
   transition: 0.25s ease;
   position: absolute;
@@ -154,20 +158,30 @@ body .container-fluid {
   height: 100%;
   width: 100%;
   opacity: 0;
-  background-color: #474954;
+  border-radius: 50%;
+  background-color: green;
 }
-#medsModal #medsList button[data-taken=yes]:after {
+#medsModal #medsList button[data-taken=yes]:before {
   content: "✔";
   font-size: xx-large;
-  color: green;
+  color: white;
   font-weight: bold;
+  position: absolute;
+  top: 0;
 }
 #medsModal #medsList button[data-taken=yes] > .overlay {
   opacity: 1;
 }
 #medsModal #medsList button.med-btn {
+  position: relative;
   border: none;
+  height: 3rem;
+  width: 3rem;
   background: none;
+}
+#medsModal #medsList button.med-btn:focus, #medsModal #medsList button.med-btn:active {
+  box-shadow: none;
+  border: none;
 }
 #medsModal #medsList img {
   width: 2rem;
