@@ -185,7 +185,7 @@
             <div class="row section-row">
                 <div class="col-sm-3">
                     <div class="card">
-                        <img src="assets/conversation.png" class="card-img-top" alt="...">
+                        <img src="assets/reading.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Reading</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -195,7 +195,7 @@
                 </div>
                 <div class="col-sm-3">
                     <div class="card">
-                        <img src="assets/brain.png" class="card-img-top" alt="...">
+                        <img src="assets/programming.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Programming</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -205,9 +205,9 @@
                 </div>
                 <div class="col-sm-3">
                     <div class="card">
-                        <img src="assets/brain.png" class="card-img-top" alt="...">
+                        <img src="assets/sewing.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Time Spent Crafting</h5>
+                            <h5 class="card-title">Crafting</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         </div>
@@ -215,7 +215,7 @@
                 </div>
                 <div class="col-sm-3">
                     <div class="card">
-                        <img src="assets/brain.png" class="card-img-top" alt="...">
+                        <img src="assets/netflix.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Watching</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
