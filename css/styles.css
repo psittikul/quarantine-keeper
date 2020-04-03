@@ -17,45 +17,6 @@ body .container-fluid {
   color: #474954;
 }
 
-#medList {
-  list-style: none;
-  padding: 0;
-  color: #474954;
-}
-#medList li {
-  display: inline-block;
-  margin-right: 1rem;
-}
-#medList li .med-btn {
-  border: none;
-  background: none;
-  position: relative;
-}
-#medList li .med-btn img {
-  width: 2rem;
-}
-#medList .overlay {
-  transition: 0.25s ease;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  background-color: #474954;
-}
-#medList button[data-taken=yes]:after {
-  content: "✔";
-  font-size: xx-large;
-  color: green;
-  font-weight: bold;
-}
-#medList button[data-taken=yes] > .overlay {
-  opacity: 1;
-}
-
 #stickySidenav {
   position: fixed;
   z-index: 1000;
@@ -182,6 +143,31 @@ body .container-fluid {
 
 #medsModal #medsList {
   list-style: none;
+}
+#medsModal #medsList .overlay {
+  transition: 0.25s ease;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background-color: #474954;
+}
+#medsModal #medsList button[data-taken=yes]:after {
+  content: "✔";
+  font-size: xx-large;
+  color: green;
+  font-weight: bold;
+}
+#medsModal #medsList button[data-taken=yes] > .overlay {
+  opacity: 1;
+}
+#medsModal #medsList button.med-btn {
+  border: none;
+  background: none;
 }
 #medsModal #medsList img {
   width: 2rem;

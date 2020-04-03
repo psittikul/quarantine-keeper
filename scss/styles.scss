@@ -17,47 +17,6 @@ body {
   color: $outer-space;
 }
 
-#medList {
-  list-style: none;
-  padding: 0;
-  color: $outer-space;
-  li {
-    display: inline-block;
-    .med-btn {
-      border: none;
-      background: none;
-      position: relative;
-      img {
-        width: 2rem;
-      }
-    }
-    margin-right: 1rem;
-  }
-  .overlay {
-    transition: 0.25s ease;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    background-color: $outer-space;
-  }
-  button[data-taken="yes"] {
-    &:after {
-      content: "✔";
-      font-size: xx-large;
-      color: green;
-      font-weight: bold;
-    }
-    & > .overlay {
-      opacity: 1;
-    }
-  }
-}
-
 #stickySidenav {
   position: fixed;
   z-index: 1000;
@@ -182,6 +141,33 @@ body {
 
 #medsModal #medsList {
   list-style: none;
+  .overlay {
+    transition: 0.25s ease;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: $outer-space;
+  }
+  button[data-taken="yes"] {
+    &:after {
+      content: "✔";
+      font-size: xx-large;
+      color: green;
+      font-weight: bold;
+    }
+    & > .overlay {
+      opacity: 1;
+    }
+  }
+  button.med-btn {
+    border: none;
+    background: none;
+  }
   img {
     width: 2rem;
   }
