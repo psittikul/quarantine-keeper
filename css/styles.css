@@ -167,10 +167,11 @@ body .container-fluid {
   color: white;
   font-weight: bold;
   position: absolute;
+  z-index: 100000;
   top: 0;
 }
 #medsModal #medsList button[data-taken=yes] > .overlay {
-  opacity: 1;
+  opacity: 0.5;
 }
 #medsModal #medsList button.med-btn {
   position: relative;
@@ -180,8 +181,7 @@ body .container-fluid {
   background: none;
 }
 #medsModal #medsList button.med-btn:focus, #medsModal #medsList button.med-btn:active {
-  box-shadow: none;
-  border: none;
+  outline: none;
 }
 #medsModal #medsList img {
   width: 2rem;

@@ -165,10 +165,11 @@ body {
       color: white;
       font-weight: bold;
       position: absolute;
+      z-index: 100000;
       top: 0;
     }
     & > .overlay {
-      opacity: 1;
+      opacity: 0.5;
     }
   }
   button.med-btn {
@@ -179,8 +180,7 @@ body {
     background: none;
     &:focus,
     &:active {
-      box-shadow: none;
-      border: none;
+      outline: none;
     }
   }
   img {
