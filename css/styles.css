@@ -147,11 +147,21 @@ body .container-fluid {
 #medsBtn {
   background: none;
   border: none;
-  height: 3rem;
+  width: 3rem;
   float: right;
 }
 #medsBtn:hover {
   opacity: 0.8;
+}
+#medsBtn img {
+  width: 100%;
+}
+
+#medsModal #medsList {
+  list-style: none;
+}
+#medsModal #medsList img {
+  width: 2rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

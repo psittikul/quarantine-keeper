@@ -146,9 +146,19 @@ body {
 #medsBtn {
   background: none;
   border: none;
-  height: 3rem;
+  width: 3rem;
   float: right;
   &:hover {
     opacity: 0.8;
+  }
+  img {
+    width: 100%;
+  }
+}
+
+#medsModal #medsList {
+  list-style: none;
+  img {
+    width: 2rem;
   }
 }

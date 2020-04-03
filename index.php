@@ -64,7 +64,7 @@
                         <i class="fas fa-heartbeat"></i> Physical Health
                     </h3>
                     <span id="medsBtnWrapper" data-toggle="modal" data-target="#medsModal">
-                        <button type="button" id="medsBtn" data-toggle="tooltip" title="Did you take your meds today?">
+                        <button type="button" id="medsBtn" data-toggle="tooltip" data-placement="right" title="Did you take your meds today?">
                             <img src="assets/medicine.png" />
                         </button>
                     </span>
@@ -266,7 +266,7 @@
                     </ul>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-primary">Save</button>
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
             </div>
